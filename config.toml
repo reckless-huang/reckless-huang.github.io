@@ -16,7 +16,7 @@ googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 # language support # en / zh-cn / other... translations present in i18n/
-defaultContentLanguage = "en"           # Default language to use
+defaultContentLanguage = "zh-cn"           # Default language to use
 [languages.en]
   languageCode = "en"
 
@@ -55,7 +55,7 @@ defaultContentLanguage = "en"           # Default language to use
 
 
 [params]
-  since = "2017"            # Site creation time          # 站点建立时间
+  since = "2022"            # Site creation time          # 站点建立时间
   homeFullContent = false   # if false, show post summaries on home page. Otherwise show full content.
   rssFullContent = true     # if false, Rss feed instead of the summary
 
