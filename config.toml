@@ -2,8 +2,8 @@
 # If you want to see the full configuration, please check `full-config.toml` .
 # And see https://gohugo.io/getting-started/configuration/ .
 
-baseURL = "http://localhost:1313/"
-title = "Jane - A super concise theme for Hugo"
+baseURL = "https://reckless-huang.github.io/"
+title = "reckless note"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -21,7 +21,7 @@ defaultContentLanguage = "en"           # Default language to use
   languageCode = "en"
 
 [author]                  # essential                     # 必需
-  name = "aaaa"
+  name = "reckless"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
