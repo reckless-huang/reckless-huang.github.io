@@ -6,8 +6,8 @@ on:
       - 'source'
 
 jobs:
-build-deploy:
-runs-on: ubuntu-18.04
+  build-deploy:
+  runs-on: ubuntu-18.04
 
 steps:
 - uses: actions/checkout@master
