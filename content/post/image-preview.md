@@ -23,6 +23,8 @@ This is an image in `static/image` folder.
 ```markdown
 ![This is an image in `static/image` folder.](/image/example.jpg)
 ```
+![This is an image in `static/image` folder.](/image/example.jpg)
+
 
 <!--more-->
 
