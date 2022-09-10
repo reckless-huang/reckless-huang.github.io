@@ -1,7 +1,9 @@
 name: github pages
 
-on:push:branches:
-  - source
+on:
+  push:
+    branches:
+      - 'source'
 
 jobs:
 build-deploy:
