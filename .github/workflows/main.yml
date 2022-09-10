@@ -20,13 +20,13 @@ steps:
 - name: Setup Hugo
   uses: peaceiris/actions-hugo@v2
   with:
-  hugo-version: 'latest'
-  extended: true
+    hugo-version: 'latest'
+    extended: true
 - name: Build
   run: hugo --gc --minify --cleanDestinationDir
 - name: Deploy
   uses: peaceiris/actions-gh-pages@v3
   with:
-  deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-  publish_dir: ./public
-  publish_branch: main
+    deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+    publish_dir: ./public
+    publish_branch: main
