@@ -120,7 +120,8 @@ Yes !.
 &lt;h2 id="normal-image">Normal Image&lt;/h2>
 &lt;p>This is an image in &lt;code>static/image&lt;/code> folder.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">This is an image in `static/image` folder.&lt;/span>](&lt;span style="color:#a6e22e">/image/example.jpg&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="-figure--shortcode">&lt;code>{{&amp;lt; figure &amp;gt;}}&lt;/code> shortcode&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://reckless-huang.github.io/image/example.jpg" alt="This is an image in static/image folder.">&lt;/p>
+&lt;h2 id="-figure--shortcode">&lt;code>{{&amp;lt; figure &amp;gt;}}&lt;/code> shortcode&lt;/h2>
 &lt;h3 id="figure-image-with-title">figure image with title&lt;/h3>
 &lt;pre tabindex="0">&lt;code>{{&amp;lt; figure src=&amp;#34;/image/example.jpg&amp;#34; title=&amp;#34;figure image with title&amp;#34; &amp;gt;}}
 &lt;/code>&lt;/pre>&lt;h3 id="figure-image-with-caption">figure image with caption&lt;/h3>
